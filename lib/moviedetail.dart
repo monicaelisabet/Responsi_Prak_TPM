@@ -39,7 +39,7 @@ class _MovieDetailScreenState extends State<MovieDetailScreen> {
           IconButton(
             icon: Icon(
               isFavorite ? Icons.favorite : Icons.favorite_border,
-              color: Colors.white,
+              color: Colors.blue,
             ),
             onPressed: toggleFavorite,
           ),
